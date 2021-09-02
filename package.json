@@ -1,0 +1,24 @@
+{
+  "name": "pwa-gastby",
+  "version": "1.0.0",
+  "private": true,
+  "description": "pwa-gastby",
+  "author": "Andrés Maldonado",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build --prefix-paths",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "bulma": "^0.9.3",
+    "gatsby": "^3.13.0",
+    "gatsby-plugin-manifest": "^3.13.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
